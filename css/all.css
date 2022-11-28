@@ -1,5 +1,16 @@
+@import url("./header.css");
+@import url("./create-product.css");
+@import url("./button.css");
+
 :root {
-  --header: #0f1726
+  --fundo:#ededed;
+  --branco:#fff;
+  --preto:#000;
+  --azul:#0f1726;
+  --verde:#33cdac;
+  --verde-hover: #30b396;
+  --cinza: #4a6280;
+  --cinza-claro: #ababab;
 }
 
 
@@ -8,14 +19,3 @@ body {
 
 }
 
-
-.header {
-  background-color: var(--header);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 32px ;
-  padding-left: 32px;
-}

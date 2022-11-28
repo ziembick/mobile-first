@@ -7,4 +7,13 @@ button {
 .btn {
   border-radius: 20px;
   padding: 12px 24px;
+  background-color: var(--verde);
+  color: var(--azul);
+  font-weight: 700;
+  transition: 0.3 ease;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: var(--verde-hover);
 }

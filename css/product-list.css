@@ -1,0 +1,33 @@
+.product-list {
+  padding: 32px;
+}
+
+.product-card {
+  background-color: var(--branco);
+  height: 450px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+}
+
+.product-list__image {
+  height: 220px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.product-card__price {
+  font-size: 32px;
+  margin: 0;
+}
+
+.product-card__title {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+.product-card__description {
+  font-size: 14px;
+  color: #ababab;
+}

@@ -2,6 +2,7 @@
 @import url("./create-product.css");
 @import url("./button.css");
 @import url("./product-list.css");
+@import url("./footer.css");
 
 :root {
   --fundo:#ededed;

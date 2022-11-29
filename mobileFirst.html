@@ -41,6 +41,7 @@
                 name="product-name"
                 placeholder="Nome de Ferramentas..."
               />
+
               <label for="product-description">Descrição de produto</label>
               <textarea
                 name="product-description"
@@ -48,7 +49,27 @@
                 rows="4"
                 placeholder="Esse é um jogo de ferramentas variado..."
               ></textarea>
+
+              <label for="product-image">Link da Imagem</label>
+              <input
+                type="text"
+                id="image"
+                name="product-image"
+                placeholder="https://imagem.com/caixa-de-ferramentas"
+              />
+
+              <label for="product-image-description">Descrição da Imagem</label>
+              <input
+                type="text"
+                id="image-description"
+                name="product-image-description"
+                placeholder="Caixa de Ferramenta contendo diversos itens"
+              />
             </fieldset>
+            <div>
+              <button class="btn" type="reset">Cancelar</button>
+              <button class="btn" type="submit">Enviar</button>
+            </div>
           </form>
         </dialog>
       </section>

@@ -33,6 +33,10 @@
   width: 100%;
 }
 
+.create-product_form label {
+  padding: 10px 0;
+}
+
 .create-product_form input,
 .create-product_form textarea {
   box-sizing: border-box;
@@ -44,6 +48,7 @@
   height: auto;
   outline: none;
   font-size: 0.9em;
+  margin-bottom: 20px;
 }
 
 .create-product_form textarea {

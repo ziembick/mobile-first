@@ -2,4 +2,50 @@
   margin: 24px 0;
   display: flex;
   justify-content: flex-end;
+  padding: 0 16px;
+}
+
+.create-product_dialog {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box; /*normaliza os paddings */
+  width: 100%;
+  height: auto;
+  border: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.create-product_form {
+  background-color: var(--branco);
+  box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-product_form fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.create-product_form input,
+.create-product_form textarea {
+  box-sizing: border-box;
+  display: block;
+  border: 1px solid var(--cinza-claro);
+  padding: 6px;
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+  outline: none;
+  font-size: 0.9em;
+}
+
+.create-product_form textarea {
+  resize: none;
 }

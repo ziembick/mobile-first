@@ -5,11 +5,11 @@
 @import url("./footer.css");
 
 :root {
-  --fundo:#ededed;
-  --branco:#fff;
-  --preto:#000;
-  --azul:#0f1726;
-  --verde:#33cdac;
+  --fundo: #ededed;
+  --branco: #fff;
+  --preto: #000;
+  --azul: #0f1726;
+  --verde: #33cdac;
   --verde-hover: #30b396;
   --cinza: #4a6280;
   --cinza-claro: #ababab;
@@ -18,6 +18,5 @@
 body {
   background-color: var(--fundo);
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-

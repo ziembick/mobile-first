@@ -31,8 +31,28 @@
     <main class="main-content">
       <section class="create-product">
         <button class="btn">Criar Produto</button>
+        <dialog open class="create-product_dialog">
+          <form method="dialog" class="create-product_form">
+            <h2>Criar Produto</h2>
+            <fieldset>
+              <label for="product-name">Nome</label>
+              <input
+                type="text"
+                name="product-name"
+                placeholder="Nome de Ferramentas..."
+              />
+              <label for="product-description">Descrição de produto</label>
+              <textarea
+                name="product-description"
+                id="description"
+                rows="4"
+                placeholder="Esse é um jogo de ferramentas variado..."
+              ></textarea>
+            </fieldset>
+          </form>
+        </dialog>
       </section>
-      
+
       <!-- container card-->
       <section class="product-list">
         <!-- card -->

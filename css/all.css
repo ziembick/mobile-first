@@ -15,9 +15,9 @@
   --cinza-claro: #ababab;
 }
 
-
-
 body {
   background-color: var(--fundo);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 

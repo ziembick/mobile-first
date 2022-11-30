@@ -1,6 +1,9 @@
 const createProductButton = document.querySelector('#create-product')
 const dialog = document.querySelector('.create-product_dialog')
-console.log(dialog.hasAttribute('open'))
+const cancelButton = document.querySelector('#cancel')
+
+
+
 // dialog.open = true
 
 // dialog.setAttribute('open', true)
@@ -11,6 +14,18 @@ dialog.showModal()
 
 // setTimeout (() => dialog.close(), 3000)
 
-createProductButton.addEventListener('click', () => {
-    dialog.showModal()
-})
+// function openModal () {
+//     dialog.showModal()
+// }
+
+const openModal = () => dialog.showModal()
+// const closeModal = () => dialog.close()
+
+
+createProductButton.addEventListener('click', openModal)
+
+// cancelButton.addEventListener('click', () => {
+//     dialog.close()
+// })
+
+cancelButton.addEventListener('click', () => dialog.close())

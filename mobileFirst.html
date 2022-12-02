@@ -37,6 +37,7 @@
             <fieldset>
               <label for="product-name">Nome</label>
               <input
+                id="name"
                 type="text"
                 name="product-name"
                 placeholder="Nome de Ferramentas..."
@@ -49,6 +50,13 @@
                 rows="4"
                 placeholder="Esse é um jogo de ferramentas variado..."
               ></textarea>
+
+              <label for="product-name">Preço</label>
+              <input
+                type="text"
+                name="product-name"
+                placeholder="R$ 128"
+              />
 
               <label for="product-image">Link da Imagem</label>
               <input
@@ -68,7 +76,7 @@
             </fieldset>
             <div>
               <button id="cancel" class="btn" type="reset">Cancelar</button>
-              <button class="btn" type="submit">Enviar</button>
+              <button id="save" class="btn" type="submit">Criar</button>
             </div>
           </form>
         </dialog>

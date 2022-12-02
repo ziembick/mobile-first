@@ -21,11 +21,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* 
+
 
 .main-content {
   width: 90%;
   max-width:  1440px;
   margin: auto;
-  height: 100vh;
-} */
+  min-height: 100vh;
+}
